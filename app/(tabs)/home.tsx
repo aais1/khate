@@ -6,7 +6,6 @@ export default function home(){
     useEffect(()=>{
         navigator.setOptions({
             title:"Home",
-            headerBackTitle:"Back"
         })
     },[])
     return (

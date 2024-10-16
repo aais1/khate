@@ -6,8 +6,7 @@ export default function analytics(){
     const navigator=useNavigation();
     useEffect(()=>{
         navigator.setOptions({
-            title:"Home",
-            headerBackTitle:"Back"
+            title:"Analytics",
         })
     },[])
     return (

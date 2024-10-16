@@ -6,8 +6,7 @@ export default function profile(){
     const navigator=useNavigation();
     useEffect(()=>{
         navigator.setOptions({
-            title:"Home",
-            headerBackTitle:"Back"
+            title:"Profile",
         })
     },[])
     return (
